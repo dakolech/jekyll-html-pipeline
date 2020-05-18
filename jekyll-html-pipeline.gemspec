@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'jekyll', '~> 3.0'
+  spec.add_runtime_dependency 'jekyll', '~> 4.0'
   spec.add_dependency 'html-pipeline', '~> 2.8'
 
   spec.add_development_dependency 'commonmarker', '~> 0.17'
